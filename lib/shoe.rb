@@ -6,7 +6,7 @@ BRANDS = ["Uggs", "Rainbow"]
 
   def initialize(brand)
     @brand = brand
-    BRANDS.uniq.length << brand
+    BRANDS.clear<< brand
    
      
   end
