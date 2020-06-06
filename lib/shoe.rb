@@ -12,7 +12,7 @@ BRANDS = ["Uggs", "Rainbow"]
   end
   
   def BRANDS
-    BRANDS == BRANDS.uniq
+    BRANDS == BRANDS.uniq.length
   end
 
   def cobble
