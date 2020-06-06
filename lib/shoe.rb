@@ -11,10 +11,6 @@ BRANDS = ["Uggs", "Rainbow"]
      
   end
   
-  def BRANDS
-    BRANDS.uniq.length == BRANDS.length
-  end
-
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
